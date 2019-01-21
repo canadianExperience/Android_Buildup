@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <string name="app_name">myFirstBuildup</string>
+
+    <!-- Activity Titles -->
+    <string formatted="false" name="myFirstBuildupListActivity">myFirstBuildupList</string>
+    <string formatted="false" name="myFirstBuildupListFormFormActivity"></string>
+    <string formatted="false" name="myFirstBuildupMainActivity">myFirstBuildup</string>
+	
+	<!-- Navigation Titles -->
+    <string name="mainmenu_entry0">myFirstBuildupList</string>
+</resources>
+

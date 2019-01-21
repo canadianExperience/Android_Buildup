@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.buildup.myfirstbuildup20190119013118" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name=".MyApplication">
+
+        <activity android:name="io.buildup.myfirstbuildup20190119013118.ui.MyFirstBuildupListActivity"
+            android:label="@string/myFirstBuildupListActivity"
+        />
+        <activity android:name="io.buildup.myfirstbuildup20190119013118.ui.MyFirstBuildupListDetailActivity"
+        />
+        <activity android:name="io.buildup.myfirstbuildup20190119013118.ui.MyFirstBuildupListFormFormActivity"
+            android:label="@string/myFirstBuildupListFormFormActivity"
+        />
+        <activity android:name="io.buildup.myfirstbuildup20190119013118.ui.MyFirstBuildupMainActivity"
+            android:label="@string/myFirstBuildupMainActivity"
+            android:theme="@style/AppTheme.Drawer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
